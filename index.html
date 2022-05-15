@@ -42,11 +42,23 @@
   margin-bottom: 2rem;
   color: black;
 }
-
   .btn{
     background-color: white;
     color:black;
   }
+
+  .bg_video{
+			position: fixed; 
+			right: 0; 
+			bottom: 0;
+			min-width: 100%; 
+			min-height: 100%;
+			width: auto; 
+			height: auto; 
+			z-index: -1000;
+			background: url(assets/img/header.png) no-repeat;
+			background-size: cover; 
+		}
   </style>
 
 </head>
@@ -95,8 +107,10 @@
   <!-- Header -->
   <div class="wrapper">
     <div class="page-header clear-filter" filter-color="blue">
-      <div class="page-header-image" data-parallax="true" style="background-image:url('./assets/img/header.gif');" loading="lazy">
-      </div>
+      <video autoplay loop poster="polina.jpg" class="bg_video">
+        <source src="assets/videos/bg.webm" type="video/webm">
+        <source src="assets/videos/bg.mp4" type="video/mp4">
+      </video>
       <div class="container">
         <div class="content-center brand">
           <img class="n-logo" src="./assets/img/now-logo.png" alt="Lunacia Cup Logo" loading="lazy">
@@ -110,7 +124,7 @@
         <div class="row justify-content-md-center">
           <div class="col-md-12 col-lg-8">
             <h2 class="title">Trailer</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/izGwDsrQ1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="yt" width="560" height="315" src="https://www.youtube.com/embed/izGwDsrQ1eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
