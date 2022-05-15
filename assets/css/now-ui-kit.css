@@ -7265,6 +7265,10 @@ img {
     max-width: 133px;
     top: 99%;
   }
+
+  .yt{
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 517px) {
