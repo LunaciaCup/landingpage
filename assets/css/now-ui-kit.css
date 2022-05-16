@@ -5547,6 +5547,7 @@ img {
 .card-signup {
   max-width: 350px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .card-signup .card-header {
@@ -5977,6 +5978,7 @@ img {
 
 .section-signup {
   padding-top: 20vh;
+  align-items: center;
 }
 
 .page-header {
